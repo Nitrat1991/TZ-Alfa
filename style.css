@@ -8,7 +8,7 @@ header {
 }
 
 .navbar-brand span {
-    font-size: 41px;
+    /* font-size: 41px; */
     font-weight: 700;
     background: linear-gradient(90deg, #254A93 13.61%, #2490F4 126.94%);
     -webkit-background-clip: text;
@@ -23,8 +23,8 @@ header {
 }
 
 .bloc__exc h1{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 55px;
+    font-family: 'Montserrat', sans-serif;    
+    font-size: calc( 30px + 1.5vw);
     font-weight: 500;
     color: #2462B5;
 }
@@ -36,14 +36,15 @@ header {
     color:#737373;
 }
 
-.bloc__exc div{
+.bloc__exc button{
     background: linear-gradient(90deg, #254A93 13.61%, #2490F4 126.94%);
     width: 239.88px;
     height: 65px;
+    border-radius: 0;
     color: #ffffff;
 }
 
-.bloc__exc div:hover {
+.bloc__exc button:hover {
     background: linear-gradient(180deg, #254A93 13.61%, #2490F4 126.94%);
     transform: scale(1.2);
 }
@@ -68,7 +69,6 @@ header {
 }
 
 .bloc__about div p{
-    font-size: 20px;
     line-height: 164.06%;
     color: #737373;
 }
@@ -81,7 +81,6 @@ header {
 }
 
 .bloc__about div div div p {
-    font-size: 20px;
     line-height: 30px;
     color: #737373;
 }
@@ -297,6 +296,5 @@ input[type=text]:focus {
 
 .bloc__contacts_call span{
     font-family: Montserrat;
-    font-size: 26px;
     line-height: 32px;
 }
